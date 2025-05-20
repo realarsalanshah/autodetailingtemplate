@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Before & After Results</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  href="css/autodetailertemplate.webflow.shared.c7a209698.css"
+  rel="stylesheet"
+  type="text/css"
+/>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 40px;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .gallery-item {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .caption {
+      padding: 10px 15px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+    <div
+    data-animation="default"
+    data-collapse="medium"
+    data-duration="400"
+    data-easing="ease"
+    data-easing2="ease"
+    role="banner"
+    class="navbar w-nav"
+>
+    <div class="container w-container">
+        <a href="#" class="w-nav-brand"
+            ><img
+                src="images/seattlemobiledetailing-png.png"
+                loading="lazy"
+                width="150"
+                sizes="150px"
+                alt=""
+                srcset="
+                    images/seattlemobiledetailing-png-p-500.png 500w,
+                    images/seattlemobiledetailing-png.png       981w
+                "
+        /></a>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+            <a href="index.html#home" class="nav-link w-nav-link">Home</a
+            ><a href="index.html#about" class="nav-link-2 w-nav-link">About</a
+            ><a href="index.html#pricing" class="nav-link-4 w-nav-link">Pricing</a
+            ><a href="index.html#services" class="nav-link-3 w-nav-link"
+                >Services</a
+            ><a href="results.html" class="nav-link-4 w-nav-link">Gallery</a>
+            <a href="index.html#name" class="nav-link-4 w-nav-link">Contact</a>
+            
+        </nav>
+        <div class="w-nav-button">
+            <div class="w-icon-nav-menu"></div>
+        </div>
+    </div>
+</div>
+  <h1>Before & After Results</h1>
+  <div class="gallery">
+    <!-- 10 Gallery Slots -->
+    <div class="gallery-item">
+      <img src="images/before1.jpg" alt="Before Image 1">
+      <img src="images/after1.jpg" alt="After Image 1">
+      <div class="caption">Sedan Interior Clean</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/before2.jpg" alt="Before Image 2">
+      <img src="images/after2.jpg" alt="After Image 2">
+      <div class="caption">Truck Exterior Polish</div>
+    </div>
+
+    <!-- Add more as needed -->
+    <!-- Just duplicate the entire .gallery-item div -->
+  </div>
+</body>
+</html>
